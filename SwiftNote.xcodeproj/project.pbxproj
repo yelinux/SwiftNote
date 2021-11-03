@@ -16,6 +16,16 @@
 		81117F502732282F008EB222 /* SwiftNoteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81117F4F2732282F008EB222 /* SwiftNoteTests.swift */; };
 		81117F5A2732282F008EB222 /* SwiftNoteUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81117F592732282F008EB222 /* SwiftNoteUITests.swift */; };
 		81117F5C2732282F008EB222 /* SwiftNoteUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81117F5B2732282F008EB222 /* SwiftNoteUITestsLaunchTests.swift */; };
+		81117F6A27322D7F008EB222 /* StringTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81117F6927322D7F008EB222 /* StringTest.swift */; };
+		81117F6C27323072008EB222 /* ArrayTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81117F6B27323072008EB222 /* ArrayTest.swift */; };
+		81117F6E273232EA008EB222 /* DictTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81117F6D273232EA008EB222 /* DictTest.swift */; };
+		81117F70273237B5008EB222 /* FuncTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81117F6F273237B5008EB222 /* FuncTest.swift */; };
+		81117F7227323B64008EB222 /* ClosuresTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81117F7127323B64008EB222 /* ClosuresTest.swift */; };
+		81117F7427325D9A008EB222 /* EnumTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81117F7327325D9A008EB222 /* EnumTest.swift */; };
+		81117F7627325EF5008EB222 /* StructTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81117F7527325EF5008EB222 /* StructTest.swift */; };
+		81117F7827325FF4008EB222 /* ClassTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81117F7727325FF4008EB222 /* ClassTest.swift */; };
+		81117F7A273270ED008EB222 /* ArcTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81117F79273270ED008EB222 /* ArcTest.swift */; };
+		81117F7C2732755A008EB222 /* ProtocolTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81117F7B2732755A008EB222 /* ProtocolTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +59,16 @@
 		81117F552732282F008EB222 /* SwiftNoteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftNoteUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		81117F592732282F008EB222 /* SwiftNoteUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftNoteUITests.swift; sourceTree = "<group>"; };
 		81117F5B2732282F008EB222 /* SwiftNoteUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftNoteUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		81117F6927322D7F008EB222 /* StringTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = StringTest.swift; path = BaseData/StringTest.swift; sourceTree = SOURCE_ROOT; };
+		81117F6B27323072008EB222 /* ArrayTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayTest.swift; sourceTree = "<group>"; };
+		81117F6D273232EA008EB222 /* DictTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DictTest.swift; sourceTree = "<group>"; };
+		81117F6F273237B5008EB222 /* FuncTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FuncTest.swift; sourceTree = "<group>"; };
+		81117F7127323B64008EB222 /* ClosuresTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClosuresTest.swift; sourceTree = "<group>"; };
+		81117F7327325D9A008EB222 /* EnumTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnumTest.swift; sourceTree = "<group>"; };
+		81117F7527325EF5008EB222 /* StructTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StructTest.swift; sourceTree = "<group>"; };
+		81117F7727325FF4008EB222 /* ClassTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassTest.swift; sourceTree = "<group>"; };
+		81117F79273270ED008EB222 /* ArcTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArcTest.swift; sourceTree = "<group>"; };
+		81117F7B2732755A008EB222 /* ProtocolTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtocolTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +119,7 @@
 		81117F372732282A008EB222 /* SwiftNote */ = {
 			isa = PBXGroup;
 			children = (
+				81117F6827322D58008EB222 /* BaseData */,
 				81117F382732282A008EB222 /* AppDelegate.swift */,
 				81117F3A2732282A008EB222 /* SceneDelegate.swift */,
 				81117F3C2732282A008EB222 /* ViewController.swift */,
@@ -125,6 +146,23 @@
 				81117F5B2732282F008EB222 /* SwiftNoteUITestsLaunchTests.swift */,
 			);
 			path = SwiftNoteUITests;
+			sourceTree = "<group>";
+		};
+		81117F6827322D58008EB222 /* BaseData */ = {
+			isa = PBXGroup;
+			children = (
+				81117F6927322D7F008EB222 /* StringTest.swift */,
+				81117F6B27323072008EB222 /* ArrayTest.swift */,
+				81117F6D273232EA008EB222 /* DictTest.swift */,
+				81117F6F273237B5008EB222 /* FuncTest.swift */,
+				81117F7127323B64008EB222 /* ClosuresTest.swift */,
+				81117F7327325D9A008EB222 /* EnumTest.swift */,
+				81117F7527325EF5008EB222 /* StructTest.swift */,
+				81117F7727325FF4008EB222 /* ClassTest.swift */,
+				81117F79273270ED008EB222 /* ArcTest.swift */,
+				81117F7B2732755A008EB222 /* ProtocolTest.swift */,
+			);
+			path = BaseData;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,9 +296,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				81117F7627325EF5008EB222 /* StructTest.swift in Sources */,
+				81117F7827325FF4008EB222 /* ClassTest.swift in Sources */,
+				81117F7A273270ED008EB222 /* ArcTest.swift in Sources */,
 				81117F3D2732282A008EB222 /* ViewController.swift in Sources */,
 				81117F392732282A008EB222 /* AppDelegate.swift in Sources */,
+				81117F6A27322D7F008EB222 /* StringTest.swift in Sources */,
+				81117F6E273232EA008EB222 /* DictTest.swift in Sources */,
+				81117F7C2732755A008EB222 /* ProtocolTest.swift in Sources */,
+				81117F6C27323072008EB222 /* ArrayTest.swift in Sources */,
+				81117F7227323B64008EB222 /* ClosuresTest.swift in Sources */,
+				81117F70273237B5008EB222 /* FuncTest.swift in Sources */,
 				81117F3B2732282A008EB222 /* SceneDelegate.swift in Sources */,
+				81117F7427325D9A008EB222 /* EnumTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
